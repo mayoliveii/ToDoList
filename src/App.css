@@ -1,0 +1,74 @@
+body {
+  background-color: #101216;
+  color: #FFFFFF;
+}
+
+.App {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.TaskInd {
+background-color: #555555;
+border-radius: 0.333rem;
+margin-bottom: 1.11rem;
+padding: 0.556rem 8rem 0.556rem 0.833rem;
+text-align: left;
+font-size: 1.22rem;
+position: relative;
+}
+
+.TaskInd div{
+  display: inline-block;
+  align-items: center;
+}
+
+.taskNumber {
+  color: #999999;
+  border: 0.056rem solid #999999;
+  border-radius: 50%;
+  width: 1.444rem;
+  height: 1.444rem;
+  display: inline-flex;
+  text-align: center;
+  font-size: 0.778rem;
+  margin-right: 0.444rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.TaskInd .taskText{
+  flex: 1;
+}
+
+.done{
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.TaskInd .listTasks .iconsEdit {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50);
+  right: 0.938rem;
+  width: auto;
+  display: inline-block;
+  flex: 1;
+}
+
+.TaskInd .iconsEdit span{
+  display: inline-block;
+  margin: 0 0.625rem 0 0.625rem;
+  cursor: pointer;
+  color: #0DCAF0;
+}
+
+.iconsEdit span:hover{
+  color: #A3D3EB;
+}
+
+.btn-outline-secondary{
+  margin-left: 0.625rem;
+}
