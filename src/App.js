@@ -6,10 +6,9 @@ import { faCircleCheck, faPen, faTrashCan } from '@fortawesome/free-solid-svg-ic
 
 function App() {
 
-  //tarefas - state -->remover dps
   const [toDo, setToDo] = useState([])
 
-  //estate temporário 
+  //estate temp
   const [newTask, setNewTask] = useState('');
   const [updateData, setUpdateData] = useState('');
 
