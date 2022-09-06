@@ -14,10 +14,13 @@ body {
 background-color: #555555;
 border-radius: 0.333rem;
 margin-bottom: 1.11rem;
-padding: 0.556rem 8rem 0.556rem 0.833rem;
+padding: 0.556rem 1rem 0.556rem 0.833rem;
 text-align: left;
 font-size: 1.22rem;
 position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .TaskInd div{
